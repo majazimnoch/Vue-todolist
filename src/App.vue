@@ -50,8 +50,8 @@ onMounted(() => {
         What's up, <input type="text" placeholder="Name here" v-model="name">
       </h2>
     </section>
-    <section class="create todo">
-      <h3>CREATE A TODO</h3>
+    <section class="create-todo">
+      <h3 class="create-line">CREATE A TODO</h3>
       <form @submit.prevent="addTodo">
         <h4>What's on your todo list?</h4>
           <input 
